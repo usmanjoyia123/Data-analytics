@@ -1,0 +1,18 @@
+{
+  "namespace": "datajek.io.avro",
+  "type": "record",
+  "name": "Car",
+  "fields": [
+    {
+      "name": "make",
+      "type": "string"
+    },
+    {
+      "name": "model",
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+  ]
+}
